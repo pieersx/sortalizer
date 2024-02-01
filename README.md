@@ -1,6 +1,14 @@
-# sortalizer
-It is a combination of a sorting algorithm with graphical visualization
+# Sortalizer
 
-# display
-https://github.com/pieersx/sortalizer/assets/134113497/ef22a90a-5f43-4438-8171-4b5491848fa4
+Sortalizer is a project that combines a sorting algorithm with graphical visualization.
 
+## Display
+![Sortalizer Visualization](https://github.com/pieersx/sortalizer/assets/134113497/7778752b-d13e-4d69-8952-0ad7a7a28336)
+
+## Dependencies
+Make sure to have raylib installed.
+
+## Compilation
+Clone the repository:
+```bash
+git clone https://github.com/pieersx/sortalizer.git
