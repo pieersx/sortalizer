@@ -6,7 +6,7 @@ Sortalizer is a project that combines a sorting algorithm with graphical visuali
 https://github.com/pieersx/sortalizer/assets/134113497/7778752b-d13e-4d69-8952-0ad7a7a28336
 
 ## Dependencies
-Make sure you have raylib installed. I recommend reading their website (https://www.raylib.com/) to install it on your operating system.
+Make sure you have raylib installed. I recommend reading their website [raylib](https://www.raylib.com/) to install it on your operating system.
 
 ## Clonar
 Clone the repository:
