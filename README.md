@@ -13,7 +13,7 @@ Clone the repository:
 ```bash
 git clone https://github.com/pieersx/sortalizer.git
 ```
-# Compilation
+## Compilation
 ```bash
 ./build.sh
 ```
