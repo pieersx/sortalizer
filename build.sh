@@ -1,6 +1,8 @@
 #!/bin/sh
 
-export PKG_CONFIG_PATH=$HOME/opt/raylib/lib/pkgconfig/
+# export PKG_CONFIG_PATH=$HOME/opt/raylib/lib/pkgconfig/
 
-clang `pkg-config --cflags raylib` -o sortalizer `pkg-config --libs raylib` main.c -Wall -Wextra -lraylib -lm && ./sortalizer
- 
+RAYLIB_DIR="./raylib"
+
+# Compilar y enlazar el programa
+clang -I"${RAYLIB_DIR}/include" -o sortalizer main.c -Wall -Wextra -L"${RAYLIB_DIR}/lib" -lraylib -lm && ./sortalizer
