@@ -10,10 +10,10 @@ Make sure to have raylib installed.
 
 ## Clonar
 Clone the repository:
-```console
+```bash
 git clone https://github.com/pieersx/sortalizer.git
 ```
 # Compilation
-```console
+```bash
 ./build.sh
 ```
