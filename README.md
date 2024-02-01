@@ -8,11 +8,12 @@ https://github.com/pieersx/sortalizer/assets/134113497/7778752b-d13e-4d69-8952-0
 ## Dependencies
 Make sure to have raylib installed.
 
-## Compilation
+## Clonar
 Clone the repository:
-```bash
+```console
 git clone https://github.com/pieersx/sortalizer.git
-
+```
+# Compilation
+```console
 ./build.sh
-
-
+```
