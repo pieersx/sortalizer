@@ -12,3 +12,7 @@ Make sure to have raylib installed.
 Clone the repository:
 ```bash
 git clone https://github.com/pieersx/sortalizer.git
+
+./build.sh
+
+
