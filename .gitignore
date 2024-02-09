@@ -1,6 +1,5 @@
-sortalizer
 prueba.c
 prueba
+sortalizer
 
-raylib/pkgconfig/
-raylib.pc
+raylib/pkgconfig/raylib.pc
