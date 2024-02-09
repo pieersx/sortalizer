@@ -10,7 +10,8 @@
 const int screenWidth = 700;
 const int screenHeight = 700;
 
-bool shuffle (int n, int vector[]){
+bool shuffle (int n, int vector[]) 
+{
     for (int i = 0; i < screenWidth; ++i) {
         if (n == vector[i]) {
             return true;
@@ -61,11 +62,9 @@ int main ()
                 for (size_t i = 0; i < train_count; ++i) {
                     DrawRectangle(i, 0, 1, vector[i], GREEN);
                 }
-
             }
         }
         EndDrawing();
-
     }
 
     CloseWindow();
