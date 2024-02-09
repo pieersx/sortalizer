@@ -3,7 +3,7 @@
 #include <time.h>
 #include <stdbool.h>
 
-#include <raylib.h>
+#include "raylib.h"
 
 #define train_count sizeof(vector)/ sizeof(vector[0])
 
