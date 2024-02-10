@@ -3,7 +3,7 @@
 Sortalizer is a project that combines a sorting algorithm with graphical visualization.
 
 ## Display
-[output.mp4](https://github.com/pieersx/sortalizer/assets/134113497/eeae776f-85c0-4443-b958-a50fd3a67bab)
+https://github.com/pieersx/sortalizer/assets/134113497/239ff618-bc27-4210-8f58-fb3a31f293f7
 
 ## Dependencies
 Make sure you have raylib installed. I recommend reading their website [raylib](https://www.raylib.com/) to install it on your operating system.
