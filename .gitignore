@@ -1,5 +1,16 @@
+# Video output
+*.avi
+*.mp4
+
+# Raylib 
+raylib/lib/cmake
+raylib/lib/pkgconfig
+
+# Sort artifacts
+master.c
+master
+main
+build_2.sh
 prueba.c
 prueba
 sortalizer
-
-raylib/pkgconfig/raylib.pc
