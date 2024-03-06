@@ -11,9 +11,9 @@ void swap(int *x, int *y)
 bool shuffle(int n, int vector[]) 
 {
     for (int i = 0; i < 100; ++i) {
-		if (n == vector[i]) {
-			return true;	    
-		}
+	if (n == vector[i]) {
+	    return true;	    
 	}
+    }
     return false;    
 }
