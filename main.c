@@ -62,6 +62,7 @@ int main ()
 	}
 	EndDrawing();
     }
+    
     CloseWindow();
     UnloadImage(logo);
     return 0;
