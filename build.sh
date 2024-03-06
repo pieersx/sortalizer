@@ -2,6 +2,8 @@
 
 set -xe
 
-RAYLIB_DIR="./raylib"
+CFLAGS="-g -Wall -Wextra -I./raylib/include/ sortalizer.c"
 
-clang -I"${RAYLIB_DIR}/include" -o sortalizer main.c -Wall -Wextra -L"${RAYLIB_DIR}/lib" -lraylib -lm && ./sortalizer
+LIBS="-L./raylib/lib/ -lraylib -lm"
+
+clang $CFLAGS -o sortalizer main.c $LIBS
