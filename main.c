@@ -29,26 +29,26 @@ int main ()
 	}
 	vector[i] = n;
     }
-    int cur = 0;
-    int index = 0;
-    int min_val = screenWidth + 1;
+    int count = 0;
+    int indice = 0;
+    int min = screenWidth + 1;
 	
     while (!WindowShouldClose()) {
 	ClearBackground (COLOR_BACKGROUND);
 	SetWindowIcon(logo);
 	BeginDrawing();
 	{
-	    if (cur < screenWidth) {
-		for (size_t i = cur; i < TRAIN_COUNT; ++i) {
-		    if (vector[i] < min_val) {
-			index = i;
-			min_val = vector[i];
+	    if (count < screenWidth) {
+		for (size_t i = count; i < TRAIN_COUNT; ++i) {
+		    if (vector[i] < min) {
+			indice = i;
+			min = vector[i];
 		    }
 		}
-		vector[index] = vector[cur];
-		vector[cur] = min_val;
-		cur++;
-		min_val = screenHeight + 1;
+		vector[indice] = vector[count];
+		vector[count] = min;
+		count++;
+		min = screenHeight + 1;
 
 	    }
 		
