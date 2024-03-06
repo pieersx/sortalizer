@@ -7,7 +7,7 @@
 
 #include "sort.h"
 
-#define COLOR_BACKGROUND GetColor(0x282828FF)
+#define COLOR_BACKGROUND GetColor(0x181818FF)
 #define TRAIN_COUNT      sizeof(vector)/ sizeof(vector[0])
 
 const int screenWidth = 100;
@@ -16,7 +16,7 @@ const int screenHeight = 720;
 int main ()
 {
 	size_t screen = 80;
-	Image logo = LoadImage("./resources/icons/sort.png");
+	Image logo = LoadImage("./resources/logo/sort.png");
 	InitWindow(screen*16.25, screen*9, "Sortalizer");
 	SetTargetFPS(10);  
 	srand(time(0));
