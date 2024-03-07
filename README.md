@@ -45,12 +45,14 @@ sudo pacman -S alsa-lib mesa libx11 libxrandr libxi libxcursor libxinerama
 If this is not one of your distributions, use your appropriate package manager.
 
 ## Build from Source
+
 #### Linux
 ```console
 git clone https://github.com/pieersx/sortalizer.git
 cd sortalizaer
-./build.sh
+./build.sh && ./sortalizer
 ```
+
 #### Windows (in development)
 
 > @pieersx :+1:
