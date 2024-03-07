@@ -47,7 +47,7 @@ If this is not one of your distributions, use your appropriate package manager.
 ## Build from Source
 
 #### Linux
-```console
+```bash
 git clone https://github.com/pieersx/sortalizer.git
 cd sortalizaer
 ./build.sh && ./sortalizer
