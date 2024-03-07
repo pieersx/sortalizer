@@ -14,12 +14,12 @@ This guide is for all GNU/Linux distributions, note that **APT** is used as a pa
 #### Install required tools
 
 You need a GCC compiler (or an alternative C99 compiler) and git (to clone the repository).
-```console
+```bash
 sudo apt install build-essential git 
 ```
 
 Optionally, you can use clang for compilation.
-```console
+```bash
 sudo apt install clang 
 ```
 
@@ -28,17 +28,17 @@ sudo apt install clang
 Need to install some required libraries; Mesa for OpenGL accelerated graphics and X11 for windowing systems.
 
 ##### Debian y Ubuntu
-```console
+```bash
 sudo apt install libasound2-dev libx11-dev libxrandr-dev libxi-dev libgl1-mesa-dev libglu1-mesa-dev libxcursor-dev libxinerama-dev
 ```
 
 ##### Fedora
-```console
+```bash
 sudo dnf install alsa-lib-devel mesa-libGL-devel libX11-devel libXrandr-devel libXi-devel libXcursor-devel libXinerama-devel libatomic
 ```
 
 ##### Arch Linux
-```console
+```bash
 sudo pacman -S alsa-lib mesa libx11 libxrandr libxi libxcursor libxinerama
 ```
 
