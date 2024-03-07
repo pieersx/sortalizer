@@ -52,7 +52,7 @@ Follow these steps for building in GNU/Linux distributions
     git clone https://github.com/pieersx/sortalizer.git
     ```
 * ```bash
-    cd sortalizaer
+    cd sortalizer
     ```
 * ```bash
     ./build.sh && ./sortalizer
