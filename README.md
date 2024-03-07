@@ -46,13 +46,18 @@ If this is not one of your distributions, use your appropriate package manager.
 
 ## Build from Source
 
-#### Linux
-```bash
-git clone https://github.com/pieersx/sortalizer.git
-cd sortalizaer
-./build.sh && ./sortalizer
-```
-
-#### Windows (in development)
+### Linux
+Follow these steps for building in GNU/Linux distributions
+* ```bash
+    git clone https://github.com/pieersx/sortalizer.git
+    ```
+* ```bash
+    cd sortalizaer
+    ```
+* ```bash
+    ./build.sh && ./sortalizer
+    ```
+    
+### Windows (in development)
 
 > @pieersx :+1:
